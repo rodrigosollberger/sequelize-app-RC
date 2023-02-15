@@ -1,0 +1,24 @@
+{
+  "name": "sequelize-app-rc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigosollberger/sequelize-app-RC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigosollberger/sequelize-app-RC/issues"
+  },
+  "homepage": "https://github.com/rodrigosollberger/sequelize-app-RC#readme",
+  "dependencies": {
+    "sequelize": "^6.28.0",
+    "sqlite3": "^5.1.4"
+  }
+}
