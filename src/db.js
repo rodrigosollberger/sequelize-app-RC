@@ -8,7 +8,7 @@
     const sequelize = require("./index") //importing from a file
  */
 
-const { Sequelize } = require("sequelize") 
+const { Sequelize } = require("sequelize");
 /* 
     This is called the sequelize constructor
     Requiring the entirety of the Sequelize class through require.
@@ -18,7 +18,7 @@ const { Sequelize } = require("sequelize")
     brakets, where we pull out the Key of Sequelize with a capital S, as it means a Class.
 */
 
-const path = require("path")
+const path = require("path");
 /*
     we also need the path module. This module import is a library as it
     doesn't have a file path ("./")
@@ -26,9 +26,9 @@ const path = require("path")
 
 const sequelize = new Sequelize({
     dialect: "sqlite",
-    storage: path.join(__dirname, "db.sqlite") //this will create the new file/filepath. so sequelize-app-RC/src/db.sqlite
+    storage: path.join(__dirname, "db.sqlite"), //this will create the new file/filepath. so sequelize-app-RC/src/db.sqlite
     // logging: false (this would be usual in a production level app as the database always logs to the console. this avoids it)
-})
+});
 
 /*
     Link to the database file

@@ -21,7 +21,7 @@ const User = sequelize.define("User", {
     username: DataTypes.STRING,
     email: DataTypes.STRING,
     password: DataTypes.STRING,
-    rating: DataTypes.NUMBER
+    rating: DataTypes.NUMBER,
 });
 /*
     sequelize is the connection to the database (as established in line 27 of db.js).
@@ -31,7 +31,7 @@ const User = sequelize.define("User", {
     which will provide the attributes, the structure of the model/table
 */
 
-module.exports = { User }
+module.exports = { User };
 /*
     User is exported inside a set of curly braces as it is representing: {User: User}
 */
